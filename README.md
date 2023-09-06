@@ -2,7 +2,7 @@
 
 Link to hosted app: https://meet-eorite.netlify.app/
 
-This React project uses two public APIs by NASA and OpenStreetMap to serve the user information about the closest meteorite landings to their location. 
+This React project uses two public APIs by NASA and Geocode to serve the user information about the closest meteorite landings to their location. The user inputs a place name and the app makes a call to the Geocoding API service using Axios. This converts the human-readable address into latitude and longitude co-ordinates and in turn sources map data from the Google Maps API. These co-ordinates are then used to filter meteorite data from NASA's API into a list of the 10 nearest meteorite landings, before presenting the user with a brief info card on each meteorite, in addition to a visual map.
 
 # Use Guide:
 - Download project from https://github.com/mattc0d3/nc-news
